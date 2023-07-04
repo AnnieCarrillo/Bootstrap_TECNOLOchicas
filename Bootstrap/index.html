@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+    <title>Gatos_Bootstrap</title>
+</head>
+<body>
+
+  <div class="modal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Modal body text goes here.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Gatos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Crear cuenta</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Ingresa 
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ingresa con gmail</a></li>
+              <li><a class="dropdown-item" href="#">Contraseña olvidada</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Añadir celular</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Desabilitado</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="buscar">
+          <input class="form-control me-2" type="buscar" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+      <div class="row">
+        
+        <div class="columna col-12 col-md-4">
+          <p class="experiencia-titulo">Alimentacion</p>
+          <p>Para ayudar a tu gato a tener una vida feliz y saludable, es importante que tu gato siga una dieta equilibrada. En Purina podrás consultar la guía sobre cómo alimentar a tu gato.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Agua</span>
+            <span class="badge text-bg-primary">Proteinas</span>
+            <span class="badge text-bg-primary">Carbohidratos</span>
+            <span class="badge text-bg-primary">Vitaminas</span>
+          </div>
+        </div>
+        <!-- Articulos -->
+        <div class="columna col-12 col-md-4">
+          <p class="experiencia-titulo">Novedades</p>
+          <p>¡Bienvenidos al maravilloso mundo de los gatos! En los últimos tiempos, ha habido emocionantes novedades que han impactado la forma en que entendemos y disfrutamos de la compañía felina. Desde descubrimientos científicos hasta avances tecnológicos, los gatos están en el centro de la atención y continúan sorprendiéndonos con su encanto y misterio.</p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Escribir</span>
+            <span class="badge text-bg-primary">Editar</span>
+            <span class="badge text-bg-primary">Blogs</span>
+          </div>
+        </div>
+        <!-- Estudiante -->
+        <div class="columna col-12 col-md-4">
+          <p class="experiencia-titulo">Razas</p>
+          <p>Si estás pensando en incluir un nuevo miembro peludo para tu familia, aquí te contamos las razas más populares (y las que no lo son tanto) para que conozcas cómo es cada gato. </p>
+          <div class="badges-contenedor">
+            <span class="badge text-bg-primary">Siamés</span>
+            <span class="badge text-bg-primary">Tuxedo</span>
+            <span class="badge text-bg-primary">Carey</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="https://static.nationalgeographicla.com/files/styles/image_3200/public/01-cat-questions-nationalgeographic_1228126.jpg?w=1600&h=900" alt="Foto de Gino">
+          <p class="texto"> Si hubiera que elegir un sonido universal para la paz, votaría por el ronroneo.</p>
+          <div class="info">
+            <p class="cliente">B.L. Diamond</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="https://verdecora.es/blog/wp-content/uploads/2018/03/hierba-para-gatos-beneficios.jpg" alt="Foto de Nora">
+          <p class="texto">Los gatos tienen una absoluta honestidad emocional; los seres humanos, por una razón u otra, pueden ocultar sus sentimientos, pero el gato no.</p>
+          <div class="info">
+            <p class="cliente">Ernest Hemingway</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="https://images.ecestaticos.com/FVdcvD11qPRi-JWDH3USTiXDmeQ=/0x0:2120x1414/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F47b%2F328%2F963%2F47b3289639713b8e80c8d682d219fba7.jpg" alt="Foto de Leonardo">
+          <p class="texto">¿Qué mayor regalo que el amor de un gato?.</p>
+          <div class="info">
+            <p class="cliente">Charles Dickens</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>  
+</body>
+</html>
